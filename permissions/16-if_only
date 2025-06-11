@@ -1,8 +1,2 @@
 #!/bin/bash
-owner_file="/tmp/owner_check"
-stat -c "%U" hello > "$owner_file"
-read owner < "$owner_file"
-if [ "$owner" = "guillaume" ]
-then
-  chown vincent hello
-fi
+find hello -user guillaume -exec chown vincent {} +
