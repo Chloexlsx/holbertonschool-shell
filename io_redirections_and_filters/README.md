@@ -1,1 +1,2 @@
-#Redirection&Filters This folder keep notes about redirection and filter command lines.
+# Redirection & Filters 
+This folder keep notes about * *redirection and filter* * command lines.
